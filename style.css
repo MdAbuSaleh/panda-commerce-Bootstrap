@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x:hidden;
+}
+html{
+    
+    overflow-x:hidden;
+}
+
+.banner-section{
+    background-color: #FCEAE8;
+}
+.banner-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.banner-section p{
+    margin-bottom: 15px;
+}
+.banner-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF438E;
+    margin-bottom: 15px;
+}
+
+.b-btn{
+    padding: 9px 25px ;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* catagoris */
+
+#Watch{
+    background-color: #FFA500;
+}
+.catagoris span{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.catagoris img{
+    width: 100px;
+
+}
+
+#Bag{
+    background-color: #DA70D6;
+}
+#Shoes{
+    background-color: #0000E0;
+}
+
+/* subscribe-section */
+
+.subscribe-section{
+    background-color: #FCEAE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-section p{
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+}
+.subscribe-section input{
+    padding: 11px;
+    width: 320px;
+    border: transparent;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    outline: 0;
+    
+}
+.subscribe-section input:focus{
+    box-shadow: 1px 1px 10px 0px #DA70D6 ;
+    
+}
